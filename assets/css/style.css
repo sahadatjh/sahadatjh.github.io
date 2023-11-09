@@ -147,8 +147,8 @@ img{
 }
 .home-intro-content-box {
     position: absolute;
-    width: 80%;
     transform: translate(0%, -50%);
+    margin-left: 50px;
 }
 .home-intro-content-box .subtitle {
     text-align: center;
@@ -183,6 +183,8 @@ img{
     padding: 60px 0;
 }
 .intro-section .intro-image img {
+    border: 5px solid #ffb606;
+    border-radius: 10px;
     /*width: 317px;*/
 }
 .intro-section .intro-content .subtitle {
