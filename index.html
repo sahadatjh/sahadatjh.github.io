@@ -1,551 +1,998 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>SAHADAT HOSSEN</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Googlefont link -->
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	
-	<link rel="stylesheet" type="text/css" href="assets/plugins/progress-bar/jquery.lineProgressbar.css">
-	<!-- Fontawesome link -->
-	<link rel="stylesheet" type="text/css" href="assets/font/fontawesome/css/all.css">
-	<!-- owl carousel css link -->
-	<link rel="stylesheet" type="text/css" href="assets/plugins/owl-carousel/owl.carousel.min.css">
-	<!-- Main css link -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Sahadat Hossen</title>
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+	<link href="assets/img/portfolio/icon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
+
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+	<!-- Template Main CSS File -->
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
 </head>
+
 <body>
-	<header class="header-main-section">
-		<nav class="nav-main">
-			<!-- logo start -->
-			<a class="header-brand-logo" href="https://sahadat.github.io/">
-				<!-- <img src="assets/logo/Folio.png"> -->
-				<span style="font-size: 30px;color: #fff;font-weight: 600;text-transform: uppercase;">Sahadat Hossen</span>
-			</a>
-			<!-- logo End -->
 
-			<!-- Small Device Nav btn Start -->
-			<div class="nav-toggle-btn">
-				<div class="btn-inner"></div>
+	<!-- ======= Mobile nav toggle button ======= -->
+	<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+	<!-- ======= Header ======= -->
+	<header id="header">
+		<div class="d-flex flex-column">
+
+			<div class="profile">
+				<img src="assets/img/sahadat_300x300.png" alt="" class="img-fluid rounded-circle">
+				<h1 class="text-light"><a href="index.html">SAHADAT HOSSEN</a></h1>
+				<div class="social-links mt-3 text-center">
+					<a target="_blank" href="https://github.com/sahadatjh" class="twitter"><i class="bx bxl-github"></i></a>
+					<a target="_blank" href="https://www.linkedin.com/in/sahadatjh/" class="linkedin"><i
+							class="bx bxl-linkedin"></i></a>
+					<a target="_blank" href="https://twitter.com/sahadatjh" class="google-plus"><i class="bx bxl-twitter"></i></a>
+					<a target="_blank" href="https://www.facebook.com/sahadatjh/" class="facebook"><i
+							class="bx bxl-facebook"></i></a>
+
+				</div>
 			</div>
-			<!-- Small Device Nav btn End -->
 
-			<!-- nav items start -->
-			<ul class="nav-items-wrapper">
-				<li class="nav-item-main">
-					<a class="nav-item-main-link active" href="#home-bg-section">Home</a>
-				</li>
-				<li class="nav-item-main">
-					<a class="nav-item-main-link" href="#about-me">about me</a>
-				</li>
-				<li class="nav-item-main">
-					<a class="nav-item-main-link" href="#offer-section">service</a>
-				</li>
-				<li class="nav-item-main">
-					<a class="nav-item-main-link" href="#testimonial-section">testimonial</a>
-				</li>
-				<li class="nav-item-main">
-					<a class="nav-item-main-link" href="#testimonial-section">protfolio</a>
-				</li>
-				<li class="nav-item-main">
-					<a class="nav-item-main-link" href="#contact-section">contact</a>
-				</li>
-			</ul>
-			<!-- nav items End -->
-		</nav>
-	</header>
-	<main>
-		<section class="home-bg-section" id="home-bg-section">
+			<nav class="nav-menu">
+				<ul>
+					<li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+					<li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+					<li><a href="#resume"><i class="bx bx-spreadsheet"></i> <span>Resume</span></a></li>
+					<li><a href="#skill"><i class="bx bx-layer"></i> skill</a></li>
+					<li><a href="#project"><i class="bx bx-analyse"></i> <span>My Project</span></a></li>
+					<li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+					<li><a href="#testimonial"><i class="bx bx-file"></i> <span>Testimonial</span></a></li>
+					<li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+				</ul>
+			</nav><!-- .nav-menu -->
+			<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+		</div>
+	</header><!-- End Header -->
+
+	<!-- ======= Hero Section ======= -->
+	<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+		<div class="hero-container" data-aos="fade-in">
+			<h1>SAHADAT HOSSEN</h1>
+			<p>I'm <span class="typed" data-typed-items="a Software Engineer, a full-stack web Developer, a Trainer, a Tech Enthusiast"></span></p>
+			<a href="./assets/resume/sahadat_01910922069_software_engineer.pdf" class="btn-download" download> Download Resume</a>
+		</div>
+	</section><!-- End Hero -->
+
+	<main id="main">
+
+		<!-- ======= About Section ======= -->
+		<section id="about" class="about">
 			<div class="container">
-				<div class="home-intro-content-box">
-					<h3 class="subtitle">Using Advanced Scalable Technologies</h3>
-					<div class="title">
-						<!-- Typed Text Change Start -->
-						<div class="typed-text-items-wrapper">
-						    <div id="typedStrings">
-						      	<h2 class="typed-text-item">PHP, Laravel</h2>
-							    <h2 class="typed-text-item">NodeJs, NestJs</h2>
-							    <h2 class="typed-text-item">Angular, ReactJs</h2>
-							    <h2 class="typed-text-item">PostgreSQL, MySql</h2>
-							    <h2 class="typed-text-item">Docker, Azure</h2>
-							    <h2 class="typed-text-item">Wordpress</h2>
-						    </div>
-						    <span id="textTyped" style="white-space:pre;"></span>
-						  </div>
-						<!-- Typed Text Change End -->
+
+				<div class="section-title">
+					<h2>About</h2>
+					<p><em>
+						I am a seasoned <strong>Full-Stack Software Engineer</strong> with a strong track record across education, IT operations, and production-grade software development. My career reflects a deliberate and steady progression toward designing and building <strong>scalable, reliable, and maintainable software systems</strong>. I take pride in going beyond implementation—focusing on code quality, performance, edge cases, and long-term architectural impact.
+						<br/><br/>
+
+						I began my professional journey after completing a <strong>Diploma in Engineering</strong>, working as an <strong>IT Executive</strong> in a hospital environment, where I developed a strong sense of system reliability and operational responsibility. From <strong>2017 to November 2020</strong>, I served as an <strong>Instructor</strong> at <strong>Islami Bank Institute of Technology (IBIT)</strong>, building a solid foundation in computer science, communication, and technical mentorship. During this time, I also completed my <strong>BSc in Computer Science & Engineering in 2020</strong>, which marked my formal transition into the software industry.
+						<br/><br/>
+
+						Following graduation, I joined <strong>Barcodetech-Automation</strong> as a <strong>Web Developer</strong>, where I spent two years developing real-world applications using <strong>PHP and Laravel</strong>. This role strengthened my expertise in backend architecture, database design, and production deployment.
+						<br/><br/>
+
+						Since <strong>June 2022</strong>, I have been working at <strong>BizReflex</strong> as a <strong>Software Engineer</strong>, contributing to the development of <strong>scalable, high-impact web applications</strong>. I have successfully delivered complex platforms, including a <strong>Technician–Customer Coordination System (TekumoPro)</strong> and <strong>Garments Production Tracking solutions</strong>. With over <strong>4 years of hands-on experience</strong> in modern web technologies, I bring ownership, clarity, and a problem-solving mindset to every project and actively seek opportunities to contribute to innovative, growth-driven teams.
+						</em></p>
+
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4" data-aos="fade-right">
+						<img src="assets/img/sahadat_300x300.png" class="img-fluid" alt="">
 					</div>
-					<div class="home-social-icon">
-						<ul>
-							<li>
-								<a href="https://github.com/sahadatjh" target="_blank">
-									<i class="fab fa-github fa-2x"></i>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/in/sahadatjh/" target="_blank">
-									<i class="fab fa-linkedin-in fa-2x"></i>
-								</a>
-							</li>
-							<li>
-								<a href="http://www.facebook.com/sahadatjh" target="_blank">
-									<i class="fab fa-facebook-f fa-2x"></i>
-								</a>
-							</li>
-							<!-- <li>
-								<a href="#">
-									<i class="fab fa-instagram"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fab fa-pinterest-p"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fab fa-google-plus-g"></i>
-								</a>
-							</li> -->
+					<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+						<br />
+						<h3>Software Engineer.</h3>
+						<p class="font-italic">Full-Stack <b>Software Engineer</b> with <b>4 years</b> of experience building scalable, high-impact applications at <b>BizReflex</b>. Skilled in <b>TypeScript, JavaScript, PHP, NodeJs, NestJs, React, Angular, Laravel, JQuery, MySQL, and PostgreSQL</b>, with strong expertise in full development lifecycle and system architecture. Successfully delivered complex platforms, including a <b>Technician-Customer Coordination System (TekumoPro)</b> and <b>Garments Production Tracking</b> solutions. Seeking an opportunity to contribute to innovative, growth-driven teams. </p>
+						<br />
+						<div class="row">
+							<div class="col-lg-6">
+								<ul>
+									<li><i class="icofont-rounded-right"></i> <strong>E-mail:</strong>
+										sahadatjh@gmail.com</li>
+									<li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +8801910922069
+									</li>
+									<li><i class="icofont-rounded-right"></i> <strong>City:</strong> Badda, Dhaka
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul>
+									<li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 30</li>
+									<li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.Sc in CSE</li>
+									<li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- End About Section -->
+
+
+		<!-- ======= Resume Section ======= -->
+		<section id="resume" class="resume">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>Resume</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-up">
+						<h3 class="resume-title">Summary</h3>
+						<div class="resume-item pb-0">
+							<h4>Sahadat Hossen</h4>
+							<p><em>I am an experienced Software Engineer with a proven track record across education, IT operations, and production-grade software development. My career reflects a deliberate progression toward building scalable, reliable, and maintainable software systems. <br/> <br/>
+							
+							I began my professional journey after completing a Diploma in Engineering, working as an IT Executive in a hospital environment, where I developed a strong sense of system reliability and operational responsibility. From 2017 to November 2020, I served as an Instructor at Islami Bank Institute of Technology (IBIT) for four years, during which I strengthened my fundamentals in computer science, communication, and technical mentorship. During this period, I also completed my BSc in Computer Science & Engineering in 2020, formally transitioning into the software industry. <br/> <br/>
+
+							After graduation, I joined Barcodetech-Automation as a Web Developer, where I spent two years building real-world applications using PHP and Laravel, gaining hands-on experience in backend architecture, database design, and production deployment. <br/> <br/>
+
+							Since June 2022, I have been working as a Software Engineer at BizReflex, contributing to the design and development of scalable, production-ready web applications. I focus not only on implementation but also on code quality, performance, edge cases, and long-term architectural impact. With a strong foundation in teaching and hands-on industry experience, I bring clarity, ownership, and a problem-solving mindset to every project.</em></p>
+						
+						</div>
+
+						<h3 class="resume-title">Education</h3>
+						<div class="resume-item">
+							<h4>BACHELOR OF COMPUTER SCIENCE & ENGINEERING</h4>
+							<h5>2017 - 2020</h5>
+							<p><em><a target="_blank" href="https://fcub.edu.bd/">First Capital University of Bangladesh, Chuadanga, Bangladesh</a></em></p>
+						</div>
+						<div class="resume-item">
+							<h4>Diploma in Engineering</h4>
+							<h5>2011 - 2015</h5>
+							<p><em><a target="_blank" href="https://jhenaidah.polytech.gov.bd/">Jhenaidah Polytechnic Institute, Jhenaidah, Bangladesh</a></em></p>
+						</div>
+					</div>
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+						<h3 class="resume-title">Professional Experience</h3>
+						<div class="resume-item">
+							<h4>SOFTWARE ENGINEER</h4>
+							<h5>June 2023 - Present</h5> <b><i>2.5 years</i></b>
+							<p><em><a target="_blank" href="https://bizreflex.com/">BizReflex, Bangladesh</a></em></p>
+							<ul>
+								<li>Built scalable NestJS & Node.js backend services for real-time service dispatch and monitoring
+									platforms.</li>
+								<li>Implemented event-driven and real-time systems using NATS and WebSocket, supporting live updates and
+									alerts.</li>
+								<li>Optimized PostgreSQL queries (Knex.js), improving API response time by ~30%</li>
+							</ul>
+						</div>
+						<div class="resume-item">
+							<h4>Jr Software Engineer</h4>
+							<h5>November 2022 - June 2023</h5><b><i>8 months</i></b>
+							<p><em><a href="https://bijoytechitinstitute.com/" target="_blank">BijoytechIt Ltd.</a></em></p>
+							<ul>
+								<li>Developed REST APIs for Web Applications and websites.</li>
+								<li>Implemented real-time communication using WebSocket live events.</li>
+								<li>Built React applications with Redux and secure authentication using Laravel packages.</li>
+							</ul>
+						</div>
+						<div class="resume-item">
+							<h4>Web Developer</h4>
+							<h5>November 2020 - October 2022</h5><b><i>2 years</i></b>
+							<p><em><a target="_blank" href="https://www.barcodetech-automation.com/">Barcodetech-Automation Ltd</a></em></p>
+							<ul>
+								<li>Developed <b>Fabric batch tracking system</b> for Knit composite factory. using Laravel</li>
+								<li>Developed <b>Sweater production tracking system</b> for sweater factory. using Laravel</li>
+								<li>Integrated frontend applications with backend services supporting high-traffic users.</li>
+								<li>Improved UI performance and reusability across platforms.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- End Resume Section -->
+
+
+		<!-- ======= Interests ======= -->
+		<section id="skill" class="skill">
+			<div class="interests container">
+
+				<div class="section-title">
+					<h2>Skills</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-typescript-plain colored"></i>
+							<h3>TypeScript</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-javascript-plain colored"></i>
+							<h3>JavaScript</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-php-plain colored"></i>
+							<h3>PHP</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-python-plain colored"></i>
+							<h3>Python</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-nodejs-plain colored"></i>
+							<h3>Node.js</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-nestjs-plain colored"></i>
+							<h3>NEST JS</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-angularjs-plain colored"></i>
+							<h3>Angular</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-laravel-plain colored"></i>
+							<h3>Laravel</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-react-original colored"></i>
+							<h3>React</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-react-original colored"></i>
+							<h3>NEXT JS</h3>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-postgresql-plain colored"></i>
+							<h3>PostgreSQL</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-mysql-plain colored"></i>
+							<h3>MySQL</h3>
+						</div>
+					</div>
+
+					<br>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+							<h3>REST API</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-amazonwebservices-original colored"></i>
+							<h3>AZURE</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-html5-plain colored"></i>
+							<h3>HTML5</h3>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-css3-plain colored"></i>
+							<h3>CSS3</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-sass-original colored"></i>
+							<h3>SCSS</h3>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-docker-plain colored"></i>
+							<h3>Docker</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-kubernetes-plain colored"></i>
+							<h3>Kubernetes</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-redux-plain colored"></i>
+							<h3>Redux</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-bootstrap-plain colored"></i>
+							<h3>Bootstrap</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-jquery-plain colored"></i>
+							<h3>jQuery</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="devicon-tailwindcss-original colored"></i>
+							<h3>Tailwind css</h3>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 mt-4">
+						<div class="icon-box">
+							<i class="colored"></i>
+							<h3>AJAX</h3>
+						</div>
+					</div>
+				</div>
+				<br>
+			</div>
+		</section><!-- End Interests -->
+
+		<!-- project Section -->
+		<section id="project" class="resume">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>My Project</h2>
+				</div>
+
+				<div class="row">
+
+					<div class=" col-12" data-aos="fade-up" data-aos-delay="100">
+						<!-- sequiza -->
+
+						<div class="resume-item">
+							<h4><a target="_blank" href="https://app.tekumopro.com/">Tekumo Pro</a></h4>
+							<h5>Web Application</h5>
+							<p><em>BizReflex, Dhaka</em></p>
+							<p class="tag tag-red">Nodejs</p>
+							<p class="tag tag-blue">NestJS</p>
+							<p class="tag tag-green">Angular</p>
+							<p class="tag tag-orange">Knex.js</p>
+							<p class="tag tag-one">Material</p>
+							<p class="tag tag-red">TypeScript</p>
+							<p class="tag tag-pink">PostgreSQL</p>
+							<p class="tag tag-two">WebHook</p>
+							<p class="tag tag-three">NATS</p>
+							<p class="tag tag-red">Redis</p>
+							<p class="tag tag-green">RabbitMQ</p>
+
+							<ul>
+								<li>Developed an on-demand service platform where customers create work orders and registered technicians apply based on matching skills.</li>
+								<li>Implemented skill-based technician matching and application workflow for work orders.</li>
+								<li>Built approval-based job assignment, enabling technicians to accept and complete assigned work orders.</li>
+								<li>Integrated secure payment processing for technicians upon successful job completion.</li>
+								<li>Designed technician profiles with ratings and performance history.</li>
+								<li>Developed role-based access for customers, technicians, and administrators.</li>
+								<li>Implemented real-time notifications and asynchronous communication using message queues.</li>
+								<li>Built scalable microservice-based architecture to support high concurrency and system reliability.</li>
+								<li>Implemented webhooks for third-party system integrations and event-driven workflows.</li>
+								<li>Containerized services using Docker for consistent deployment across environments.</li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4><a target="_blank" href="#">Fabric Batch Tracking system</a></h4>
+							<h5>Web Application (Production Tracking)</h5>
+							<p><em>Keya Knit Composite Ltd.</em></p>
+							<p class="tag tag-red">PHP</p>
+							<p class="tag tag-green">Laravel</p>
+							<p class="tag tag-two">jQuery</p>
+							<p class="tag tag-one">AJAX</p>
+							<p class="tag tag-orange">JQGrid</p>
+							<p class="tag tag-pink">MySQL</p>
+							<p class="tag tag-two">Redis</p>
+							<p class="tag tag-red">WebSocket</p>
+
+							<ul>
+								<li>Developed an end-to-end fabric batch tracking system for a knit composite factory.</li>
+								<li>Implemented complete production lifecycle tracking, including fabric roll storage, dyeing, cutting, warehouse storage, carton-ready preparation, and shipment.</li>
+								<li>Enabled real-time visibility of fabric batches, inventory levels, and shipment readiness.</li>
+								<li>Designed and implemented role-based access control (RBAC) for production, warehouse, and admin users.</li>
+								<li>Developed reporting modules for production status monitoring and shipment tracking.</li>
+								<li>Improved operational traceability and reduced manual errors across multiple factory departments.</li>
+								<li>Collaborated with stakeholders to analyze workflows and translate business requirements into technical solutions.</li>
+							</ul>
+						</div>
+
+
+						<div class="resume-item">
+							<h4><a target="_blank" href="https://fnfbuy.bijoytech.com/">Ecommerce</a></h4>
+							<h5>Website with Access Control</h5>
+							<p><em>Bijoytech It Ltd</em></p>
+							<p class="tag tag-red">PHP</p>
+							<p class="tag tag-green">MySQL</p>
+							<p class="tag tag-orange">Laravel</p>
+							<p class="tag tag-one">jQuery</p>
+							<p class="tag tag-three">Bootstrap</p>
+							<p class="tag tag-two">WebSocket</p>
+
+							<ul>
+								<li>Gonojobs is a digital platform that connects job seekers and employers, primarily designed for
+									people
+									living both. We offer an easy solution for job seekers and employers to find the right links, as well
+									as
+									curated content for all types of employment-related topics. The platform primarily caters to an
+									audience living in both the urban and rural areas in Bangladesh.</li>
+								<li>Not only gunshots, but also Fire, Violations, violent chemical reactions,
+									child violence also.
+								</li>
+								<li> React-native android mobile app and React-based web app.</li>
+								<li>I am a part of the team whose responsibility is to handle all kinds of NodeJs API and Mobile app
+									frontend operations.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- End Project Section -->
+
+		<!-- ======= Portfolio Section ======= -->
+		<section id="portfolio" class="portfolio section-bg">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>Portfolio</h2>
+					<p>My Works</p>
+				</div>
+
+				<div class="row" data-aos="fade-up">
+					<div class="col-lg-12 d-flex justify-content-center">
+						<ul id="portfolio-flters">
+							<li data-filter="*" class="filter-active">All</li>
+							<li data-filter=".filter-sequenza">Tekumo Pro</li>
+							<li data-filter=".filter-kaster">Fabric Batch Tracking System</li>
+							<li data-filter=".filter-ecommerce">Ecommerce</li>
+							<li data-filter=".filter-gorilla">Sweater production Tracking</li>
 						</ul>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="intro-section" id="about-me">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-12 intro-image">
-						<img src="assets/img/person-image.jpg">
-					</div>
-					<div class="col-lg-8 col-md-12 intro-content">
-						<div class="title">
-							<!-- <span class="subtitle">Hello</span> -->
-							<h2>
-								<span>I'm</span>
-								Sahadat Hossen
-							</h2>
-							<h3>Full stack Developer</h3>
+
+				<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+					<!-- <div class="col-lg-2 col-md-3 portfolio-item filter-web">
+							<div class="portfolio-wrap">
+								<center>
+									<p> <strong>Good Deal</strong></p>
+								</center>
+								<img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt=""
+									style="height: 100px">
+								<div class="portfolio-links">
+									<a href="assets/img/portfolio/portfolio-11.jpg" data-gall="portfolioGallery"
+										class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+									<a target="_blank" href="https://good-deal.com.bd/" title="More Details"><i
+											class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div> -->
+
+
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/se1.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/se1.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
 						</div>
-						<p>
-							Hello! I am a skilled Full Stack Developer with expertise in NodeJS, Angular, NestJS, PHP, Laravel, MySQL, PostgreSQL, Docker. With over 2 years of experience in software development, API development, and database design, I have honed my skills and developed a deep understanding of web development. I am passionate about creating intuitive and user-friendly applications that deliver high performance and seamless user experiences. I am excited about new challenges and opportunities to innovate in the field of web development.
-						</p>
-						<!-- <p>
-							Besides programming I love spending time with friends and family.
-
-							My job involves doing what I love, Developing new websites/applications fantastic content management systems (CMS).
-
-							I spend a lot of time learning new techniques and actively help other people learn web development through a variety of help groups and writing web development tutorials for my website and blog about advancements in web design and development.
-						</p> -->
 					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/se2.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/se2.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s3.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s3.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s4.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s4.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s5.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s5.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s6.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s6.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s7.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s7.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s8.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s8.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s9.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s9.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s10.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s10.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s11.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s11.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-sequenza">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/se/s12.png" class="img-fluid" alt="" style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/se/s12.png" data-gall="portfolioGallery" class="venobox" title="Sequenza"><i
+										class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce1.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce1.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce2.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce2.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce3.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce3.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce4.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce4.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce5.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce5.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce6.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce6.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce7.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce7.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-6 portfolio-item filter-ecommerce">
+						<div class="portfolio-wrap">
+
+							<img src="assets/img/ecommerce/ecommerce8.png" class="img-fluid" alt=""
+								style="height: 100px">
+							<div class="portfolio-links">
+								<a href="assets/img/ecommerce/ecommerce8.png" data-gall="portfolioGallery" height="100%"
+									class="venobox" title="Minesweeper"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>
+		<!-- End Portfolio Section -->
 
-		<section class="skill-info-section mb-3 mt-3" id="skill-section">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-12 section-title">
-		                <h1 class="title">
-		                    skill & info
-		                </h1>
-		            </div>
-		            <div class="col-lg-6 col-md-12 skill-rating">
-		                <div class="progress progressbar-init" data-val="95" data-color="#ffb606" title="JavaScript">
-		                    <div class="progress-bar bg-success" role="progressbar"></div>
-		                </div>
-
-		                <div class="progress progressbar-init" data-val="90" data-color="#ffb606" title="PHP">
-		                    <div class="progress-bar bg-success" role="progressbar"></div>
-		                </div>
-
-		                <div class="progress progressbar-init" data-val="90" data-color="#ffb606" title="NodeJs">
-		                    <div class="progress-bar bg-success" role="progressbar"></div>
-		                </div>
-
-		                <div class="progress progressbar-init" data-val="70" data-color="#ffb606" title="ReactJs">
-							<div class="progress-bar bg-success" role="progressbar"></div>
-		                </div>
-
-						<div class="progress progressbar-init" data-val="90" data-color="#ffb606" title="Laravel">
-							<div class="progress-bar bg-success" role="progressbar"></div>
-						</div>
-		            </div>
-		            <div class="col-lg-6 col-md-12 skill-details">
-		                <div class="info">
-		                    <ul class="profile-list">
-		                        <li class="list-item">
-		                            <strong class="item-title">
-		                                Name
-		                            </strong>
-		                            <span class="item-content">
-		                                Sahadat Hossen
-		                            </span>
-		                        </li>
-		                        <li class="list-item">
-		                            <strong class="item-title">
-		                                Address
-		                            </strong>
-		                            <span class="item-content">
-		                                Road#6, Block#B, Banasree, Rampura, Dhaka
-		                            </span>
-		                        </li>
-		                        <li class="list-item">
-		                            <strong class="item-title">
-		                                Website
-		                            </strong>
-		                            <span class="item-content">
-		                               <a  href="http://sahadat.xyz">www.sahadat.xyz</a>
-		                            </span>
-		                        </li>
-		                        <li class="list-item">
-		                            <strong class="item-title">
-		                                E-mail
-		                            </strong>
-		                            <span class="item-content">
-		                                <a href="mailto: sajibprodhan@gmail.com">
-		                                    sahadatjh@gmail.com
-		                                </a>
-		                            </span>
-		                        </li>
-		                        <li class="list-item">
-		                            <strong class="item-title">
-		                                Phone
-		                            </strong>
-		                            <span class="item-content">
-		                                <a href="tel: +8801910922069">
-		                                    +880 1910 922069
-		                                </a>
-		                            </span>
-		                        </li>
-
-		                        <li class="list-item" style="border-bottom: 0;">
-		                            <strong class="item-title">
-		                                Software Developer
-		                            </strong>
-		                            <span class="item-content">
-		                                till 15 November, 2020
-		                            </span>
-		                        </li>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</section>
-
-
-		<section class="offer-section" id="offer-section">
+		<!-- Testimonial Section -->
+		<!-- <section id="testimonial" class="testimonial">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12 section-title">
-						<h1 class="title">
-							What do I offer
-						</h1>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-12 offer-section-item">
-						<div class="item-wrapper">
-							<div class="item-icon">
-								<i class="far fa-file-code"></i>
-							</div>
-							<div class="item-content">
-								<h5 class="title">
-									JavaScript
-								</h5>
-								<p>
-									Always I use the best techniques and stay up-to-date to provide you with readable, easily editable, semantic code.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-12 offer-section-item">
-						<div class="item-wrapper">
-							<div class="item-icon">
-								<i class="fab fa-wordpress"></i>
-							</div>
-							<div class="item-content">
-								<h5 class="title">
-									NodeJs
-								</h5>
-								<p>
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi labore id cupiditate quo corrupti, tenetur quaerat repudiandae ex fugiat totam. Minus, doloribus quam quos culpa alias inventore sapiente? Voluptas, accusamus?
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-12 offer-section-item">
-						<div class="item-wrapper">
-							<div class="item-icon">
-								<i class="far fa-file-code"></i>
-							</div>
-							<div class="item-content">
-								<h5 class="title">
-									PHP
-								</h5>
-								<p>
-									Always I use the best techniques and stay up-to-date to provide you with readable, easily editable, semantic code.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-12 offer-section-item">
-						<div class="item-wrapper">
-							<div class="item-icon">
-								<i class="fab fa-laravel"></i>
-							</div>
-							<div class="item-content">
-								<h5 class="title">
-									Laravel
-								</h5>
-								<p>
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci culpa quo earum quas sed soluta rerum.
-								</p>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="col-lg-4 col-md-6 col-sm-12 offer-section-item">
-						<div class="item-wrapper">
-							<div class="item-icon">
-								<i class="far fa-heart"></i>
-							</div>
-							<div class="item-content">
-								<h5 class="title">
-									ReactJS
-								</h5>
-								<p>
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci culpa quo earum quas sed soluta rerum.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 offer-section-item">
-						<div class="item-wrapper">
-							<div class="item-icon">
-								<i class="fab fa-html5"></i>
-							</div>
-							<div class="item-content">
-								<h5 class="title">
-									HTML/CSS
-								</h5>
-								<p>
-									I work with you every step of the way to create a perfect, responsive design that will reflect your character
-								</p>
-							</div>
-						</div>
-					</div>
-
+				<div class="section-title">
+					<h2>Testimonial</h2>
 				</div>
-			</div>
-		</section>
-		<section class="counter-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 counter-items-wrapper">
-						<div class="row">
-							<div class="col-md-3 counter-item-outer">
-								<div class="counter-item">
-									<div class="counter-number">
-										335
-									</div>
-									<h3 class="text">Happy Clients</h3>
-								</div>
-							</div>
-							<div class="col-md-3 counter-item-outer">
-								<div class="counter-item">
-									<div class="counter-number">
-										14
-									</div>
-									<h3 class="text">
-										Successful Projects
-									</h3>
-								</div>
-							</div>
-							<div class="col-md-3 counter-item-outer">
-								<div class="counter-item">
-									<div class="counter-number">
-										3	
-									</div>
-									<h3 class="text">
-										Years of Experience
-									</h3>
-								</div>
-							</div>
-							<div class="col-md-3 counter-item-outer">
-								<div class="counter-item">
-									<div class="counter-number">
-										672
-									</div>
-									<h3 class="text">
-										Visitors
-									</h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="col-md-12 scetion-title">
-			<h2 class="title">
-				Testimonial
-			</h2>
-			<!-- <p>I am pleased to provide this testimonial for [Employee Name], who is an active, creative, and industrious team member. Their contributions to our projects have been invaluable, and they consistently go above and beyond to deliver exceptional work. With their creativity and industrious nature, they consistently meet deadlines and elevate our projects to new heights. It has been a pleasure working with [Employee Name], and we are fortunate to have them as a part of our team.</p> -->
-		</div>
-		<section class="testimonial-section" id="testimonial-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 testimonial-slider-item-wrapper owl-carousel m-auto">
-						<div class="slider-item-outer">
-							<div class="item-image">
-								<img src="assets/img/no-image.png">
-							</div>
-							<q>Sahadat Hossen has successfully development a website on laravel.Job was to respect the original task, while using laravel framework.There was few back and forth to get the exact expected result because I was pretty precise on what I expectected.Would rework with pleasure with him for this type of task or other stuff related to Laravel</q>
-							<span>Uyen Lam</span>
-						</div>
-						<div class="slider-item-outer">
-							<div class="item-image">
-								<img src="assets/img/no-image.png">
-							</div>
-							<q>He delivered good work on this project and I enjoyed working with him. His communication was acceptable.He helped me find additional freelancers to support the work.I enjoyed working with him and will likely have additional jobs for him in the future.</q>
-							<span>Oliver Huang</span>
-						</div>
-						<div class="slider-item-outer">
-							<div class="item-image">
-								<img src="assets/img/no-image.png">
-							</div>
-							<q>Sahadat Hossen is great to work with. He is an asset which will give strength to anyone he works with.</q>
-							<span>Lisa Jones</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="contact-section" id="contact-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 m-auto">
-						<div class="section-title">
-							<h2 class="title">contact</h2>
-							<p>
-								Feel free to drop us a line to contact us
+
+				<div class="row" data-aos="fade-in">
+
+					<div class="col-lg-4">
+						<div class="testimonial-info">
+							<img src="assets/img/testimonials/jacob.jpeg" height="200px" width="200px" alt=""
+								class="img-fluid rounded-circle">
+							<a style="background-color: #060606;border-radius: 50%;padding: 3px 5px; margin-left: -20px;"
+								target="_blank" href="https://www.linkedin.com/in/jacobbeasley/" class="linkedin"><i
+									class="bx bxl-linkedin"></i></a>
+							<a target="_blank" style="background-color: #060606;border-radius: 50%;padding: 2px 5px;" href="https://www.facebook.com/jacobmbeasley/"
+								class="facebook"><i class="bx bxl-facebook"></i></a>
+							<h4 class="mt-4">Jacob Beasley</h4>
+							<h6>Co-Founder, CTO </h6>
+							<h6><strong><a target="_blank"
+										href="https://www.linkedin.com/company/intelletive-technologies/">Intelletive
+										Technologies</a></strong></h6>
+							<p><strong>Sahadat</strong> joined us as a an intern and went on to develop into a solid
+								<strong>full-stack engineer!</strong>
+								He did everything from <strong> backend</strong> dev to <strong>frontend</strong> dev
+								and even some <strong>mobile</strong> dev.
+								Thanks, Sahadat, for all your work!
 							</p>
 						</div>
-						<div class="contact-form">
-							<form action="" method="POST">
-								<div class="col-md-12 form-group">
-									<input type="text" name="name" class="form-control" placeholder="Name" required="">
-								</div>
-								<div class="col-md-12 form-group">
-									<input type="text" name="email" class="form-control" placeholder="Email*" required="">
-								</div>
-								<div class="col-md-12 form-group">
-									<input type="text" name="phone" class="form-control" placeholder="Phone" required="">
-								</div>
-								<div class="col-md-12 form-group">
-									<textarea class="form-control" placeholder="Tell Me About Courses *" required=""></textarea>
-								</div>
-								<div class="col-md-12">
-									<button type="submit">
-										Send message
-										<i class="fa fa-paper-plane"></i>
-									</button>
-								</div>
-							</form>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="testimonial-info">
+							<a style="background-color: #060606;border-radius: 50%;padding: 3px 5px; margin-left: -20px;"
+								target="_blank" href="https://www.linkedin.com/in/mdnazmulhasanandroid/" class="linkedin"><i
+									class="bx bxl-linkedin"></i></a>
+							<h4 class="mt-4">
+								Md Nazmul Hasan</h4>
+							<h6>Senior React Native Developer </h6>
+							<h6><strong><a target="_blank" href="https://www.linkedin.com/company/lyxa/">LYXA</a></strong></h6>
+							<p>I taught and mentored <strong>Sahadat Hossen</strong> in <strong>React Native</strong> around
+								2019–2020. During that time, he showed strong dedication, quickly picked up core concepts, and
+								consistently applied what he learned in practice. His self-driven attitude and problem-solving mindset
+								stood out.
+								Sahadat will be a valuable addition to any development team.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="testimonial-info">
+							<a style="background-color: #060606;border-radius: 50%;padding: 3px 5px; margin-left: -20px;"
+								target="_blank" href="https://www.linkedin.com/in/jerin-jahan-6b573a108/" class="linkedin"><i
+									class="bx bxl-linkedin"></i></a>
+							<h4 class="mt-4">Jerin Jahan</h4>
+							<h6>Senior Software Engineer </h6>
+							<h6><strong><a target="_blank"
+										href="https://www.linkedin.com/company/gononet-online-solutions-ltd/posts/?feedView=all">Gononet
+										Online Solutions Limited</a></strong></h6>
+							<p><strong>Sahadat</strong> is very hard working and talented individual. He is good at software
+								development and also has
+								a lot of deep technical background. He is really a <strong>passionate learner, grasps things
+									faster</strong> and
+								implement them better than before.
+								I highly recommend working with him - he is truly a kind.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row" data-aos="fade-in">
+
+					<div class="col-lg-4">
+						<div class="testimonial-info">
+							<a style="background-color: #060606;border-radius: 50%;padding: 3px 5px; margin-left: -20px;"
+								target="_blank" href="https://www.linkedin.com/in/josephleivape/" class="linkedin"><i
+									class="bx bxl-linkedin"></i></a>
+							<h4 class="mt-4">Joseph Leiva</h4>
+							<h6>Co-Founder & CEO</h6>
+							<h6><strong><a target="_blank" href="https://www.linkedin.com/company/kasterapp/posts/?feedView=all">
+								Kaster
+							</a></strong></h6>
+							<p><strong> Sahadat, </strong>
+								I want to thank you for all of the work and quality you provided to our team in building our product. 
+								I know that Emon, myself, and the rest of the team are very grateful for your contributions. 
+								We wish you the best in your future endeavors. Thank you
+							</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="testimonial-info">
+							<a style="background-color: #060606;border-radius: 50%;padding: 3px 5px; margin-left: -20px;"
+								target="_blank" href="https://www.linkedin.com/in/mzhossain01/" class="linkedin"><i
+									class="bx bxl-linkedin"></i></a>
+							<h4 class="mt-4">Mohammad Zakir Hossain</h4>
+							<h6>UX Alchemist | Bridging Vision and Aesthetics</h6>
+							<h6><strong><a target="_blank" href="https://www.linkedin.com/company/invenshape/">gorillamove/
+										invenShape</a></strong></h6>
+							<p>I had the privilege of working with <strong>Sahadat Hossen</strong> in Software Development team for
+								more than one year
+								at Gononet.
+								Sahadat Hossen is a <strong>proactive, result-oriented, responsible and technically sound
+									employee</strong> and he is
+								always ready to put all his energy and time into getting the job done.
+								He has exceptional troubleshooting and analytical skill in Windows Server technologies.
+								Sahadat Hossen is an excellent asset to any company.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="testimonial-info">
+							<a style="background-color: #060606;border-radius: 50%;padding: 3px 5px; margin-left: -20px;"
+								target="_blank" href="https://www.linkedin.com/in/ayubur/" class="linkedin"><i
+									class="bx bxl-linkedin"></i></a>
+							<h4 class="mt-4">Ayubur Rahman</h4>
+							<h6>Software Engineer - II </h6>
+							<h6><strong><a target="_blank" href="https://www.linkedin.com/company/shellbeehaken/">ShellBeeHaken
+										Ltd.</a></strong></h6>
+							<p>Working with <strong>Sahadat Hossen</strong> was a great experience for me. He is a good problem
+								solver, dedicated
+								and willing to learn and grow.
+								His working knowledge in <strong>React, React Native</strong> is extraordinary and it helped our team
+								come up with more
+								efficient solutions on different projects.
+								His contribution is valuable to the side, and I highly recommend Sahadat Hossen.
+								I’m sure he will be a great asset to any team he joins.
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<footer class="footer-section">
+
+			</div>
+		</section> -->
+
+		<!-- Testimonial  Section End-->
+
+
+
+		<!-- ======= Contact Section ======= -->
+		<section id="contact" class="contact">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-12 contact-info">
-						<div class="item">
-							<div class="item-icon">
-								<i class="fas fa-mobile-alt"></i>
-							</div>
-							<div class="item-info">
-								<h2>call Me</h2>
-								<span><a style="color: #666;" href="tel: 019109220694">+880 1910 922069</a></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 contact-info">
-						<div class="item">
-							<div class="item-icon">
-								<i class="fas fa-map-marker-alt"></i>
-							</div>
-							<div class="item-info">
-								<h2>address</h2>
-								<span>Road#6, Block#B, Banasree, Rampura, Dhaka</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 contact-info">
-						<div class="item">
-							<div class="item-icon">
-								<i class="fas fa-envelope"></i>
-							</div>
-							<div class="item-info">
-								<h2>Email Me</h2>
-								<span><a style="color: #666;" href="mailto: sahadatjh@gamil.com">sahadatjh@gamil.com</a></span>
-							</div>
-						</div>
-					</div>
-					<div class="footer-bottom">
-						Created By
-						<a href="/">Sahadat Hossen</a>
-						 
-					</div>
+
+				<div class="section-title">
+					<h2>Contact</h2>
+					<p>How Can I Help You?</p>
 				</div>
+
+				<div class="row" data-aos="fade-in">
+
+					<div class="col-lg-12 d-flex align-items-stretch">
+						<div class="info">
+							<div class="address">
+								<i class="icofont-google-map"></i>
+								<h4>Location:</h4>
+								<p>DIT Project, Merul badda, Dhaka</p>
+							</div>
+
+							<div class="email">
+								<i class="icofont-envelope"></i>
+								<h4>Email:</h4>
+								<p>sahadatjh@gmail.com</p>
+							</div>
+
+							<div class="phone">
+								<i class="icofont-phone"></i>
+								<h4>Call:</h4>
+								<p>+8801910922069</p>
+							</div>
+
+							<div class="phone">
+								<i class="icofont-whatsapp"></i>
+								<h4>Whatsapp:</h4>
+								<p>+8801910922069</p>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+						<form action="https://formspree.io/f/xnqoywpp" method="post" role="form" class="php-email-form">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="name">Your Name</label>
+									<input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+										data-msg="Please enter at least 4 chars" />
+									<div class="validate"></div>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="name">Your Email</label>
+									<input type="email" class="form-control" name="email" id="email" data-rule="email"
+										data-msg="Please enter a valid email" />
+									<div class="validate"></div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="name">Subject</label>
+								<input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
+									data-msg="Please enter at least 8 chars of subject" />
+								<div class="validate"></div>
+							</div>
+							<div class="form-group">
+								<label for="name">Message</label>
+								<textarea class="form-control" name="message" rows="3" data-rule="required"
+									data-msg="Please write something for us"></textarea>
+								<div class="validate"></div>
+							</div>
+							<div class="mb-3">
+								<div class="loading">Loading</div>
+								<div class="error-message"></div>
+							</div>
+							<div class="text-center"><button disabled type="submit">Send Message</button></div>
+						</form>
+					</div> -->
+
+				</div>
+
 			</div>
-		</footer>
-	</main>
+		</section><!-- End Contact Section -->
 
+		<!-- ======= Footer ======= -->
+		<div class="container">
+			<div class="copyright" style="font-size: x-small;">
+				<p>&#169 Sahadat Hossen 2026</p>
+			</div>
+			<div class="credits">
+			</div>
+		</div>
 
+	</main><!-- End #main -->
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- Jquerdy CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- html text Effect CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="assets/js/typed-text.js"></script>
-<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="assets/plugins/progress-bar/jquery.lineProgressbar.js"></script>
-<!-- Main js link -->
-<script src="assets/js/main.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-  	$(window).scroll(function(){
-		var scrollTop = $(window).scrollTop()
-		if(scrollTop >=130){
-			$('body').addClass('fixed-header');
-		}else {
-			$('body').removeClass('fixed-header');
-		}
-  	});
+	<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  	$('.nav-toggle-btn').click(function(){
-  		$(this).closest(".nav-main").toggleClass("menu-visible");
-  	});
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+	<script src="assets/vendor/counterup/counterup.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/venobox/venobox.min.js"></script>
+	<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="assets/vendor/typed.js/typed.min.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
 
-  	$(".nav-item-main").click(function () {
-	    $(".nav-item-main").removeClass("active");
-	    // $(".tab").addClass("active"); // instead of this do the below 
-	    $(this).addClass("active");   
-	});
-  });
-</script>
+	<!-- Template Main JS File -->
+	<script src="assets/js/main.js"></script>
+
 </body>
 
-<!-- Mirrored from saidulislamjihadd.github.io/Protfolio/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Mar 2021 16:31:28 GMT -->
 </html>
